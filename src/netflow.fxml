@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="netflow">
+   <children>
+      <Button layoutX="246.0" layoutY="290.0" mnemonicParsing="false" onAction="#onBackPressed" prefHeight="42.0" prefWidth="109.0" text="返回">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="131.0" layoutY="61.0" text="上傳 (校外): ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="152.0" prefHeight="42.0" prefWidth="129.0" text="上傳 (全部): ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="108.0" text="下載 (校外): ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="206.0" text="下載 (全部): ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab4" layoutX="301.0" layoutY="206.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab3" layoutX="301.0" layoutY="157.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab2" layoutX="301.0" layoutY="108.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab1" layoutX="301.0" layoutY="61.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="61.0" text="GB">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="108.0" text="GB">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="157.0" text="GB">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="206.0" text="GB">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

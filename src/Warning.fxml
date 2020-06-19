@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Warning">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="600.0" layoutY="-5.0">
+         <image>
+            <Image url="@1.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="246.0" layoutY="255.0" mnemonicParsing="false" onAction="#onBackPressed" prefHeight="42.0" prefWidth="109.0" text="返回">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="limit" layoutX="232.0" layoutY="150.0" prefHeight="51.0" prefWidth="136.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label layoutX="379.0" layoutY="159.0" text="GB" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="55.0" text="輸入流量上限" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="246.0" layoutY="207.0" mnemonicParsing="false" onAction="#onConfirmPressed" prefHeight="42.0" prefWidth="109.0" text="確認">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="noinput" layoutX="236.0" layoutY="111.0" prefHeight="32.0" prefWidth="129.0" text="請輸入流量上限" textFill="RED" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn" layoutX="246.0" layoutY="303.0" mnemonicParsing="false" onAction="#onresetPressed" prefHeight="42.0" prefWidth="109.0" text="重置通知" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
