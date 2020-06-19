@@ -4,3 +4,5 @@ cacerts檔為管理網路憑證SSL的檔案，宿網的SSL並未收錄其中，�
 專案無法執行
 若要執行此專案請將cacerts檔放入
 jre -> lib -> security 中取代原本的檔案
+
+可以在release page至接下載可執行的檔案
